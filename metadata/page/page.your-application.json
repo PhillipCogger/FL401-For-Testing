@@ -1,0 +1,27 @@
+{
+  "_id": "page.your-application",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.your-application--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.your-application--checkboxes--checkbox.auto_name__1",
+          "_type": "checkbox",
+          "label": "a non-molestation order",
+          "name": "auto_name__1"
+        },
+        {
+          "_id": "page.your-application--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "an occupation order",
+          "name": "auto_name__2"
+        }
+      ],
+      "legend": "I want to apply for:"
+    }
+  ],
+  "heading": "The order you're applying for",
+  "url": "your-application"
+}

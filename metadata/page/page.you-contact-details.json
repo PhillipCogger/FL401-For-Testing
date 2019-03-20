@@ -1,0 +1,29 @@
+{
+  "_id": "page.you-contact-details",
+  "_type": "page.form",
+  "body": "Would you like to keep your contact details hidden from the person you're making the order against?",
+  "components": [
+    {
+      "_id": "page.you-contact-details--radios.auto_name__5",
+      "_type": "radios",
+      "classes": "<div class=\"govuk-radios govuk-radios--inline\">       <div class=\"govuk-radios__item\">         <input class=\"govuk-radios__input\" id=\"changed-name-1\" name=\"changed-name\" type=\"radio\" value=\"yes\">         <label class=\"govuk-label govuk-radios__label\" for=\"changed-name-1\">           Yes         </label>       </div>       <div class=\"govuk-radios__item\">         <input class=\"govuk-radios__input\" id=\"changed-name-2\" name=\"changed-name\" type=\"radio\" value=\"no\">         <label class=\"govuk-label govuk-radios__label\" for=\"changed-name-2\">           No         </label>       </div>",
+      "items": [
+        {
+          "_id": "page.you-contact-details--radios.auto_name__5--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.you-contact-details--radios.auto_name__5--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "name": "auto_name__5"
+    }
+  ],
+  "heading": "Your contact details",
+  "url": "you-contact-details"
+}
