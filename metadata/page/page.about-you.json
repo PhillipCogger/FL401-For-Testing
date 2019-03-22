@@ -41,8 +41,15 @@
       ],
       "legend": "Gender",
       "name": "auto_name__7"
+    },
+    {
+      "_id": "page.about-you--date.auto_name__8",
+      "_type": "date",
+      "hint": "For example, 31 3 1980",
+      "label": "Date of birth",
+      "name": "auto_name__8"
     }
   ],
-  "heading": "About you (the applicant)",
+  "heading": "About you",
   "url": "about-you"
 }
