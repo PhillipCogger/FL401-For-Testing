@@ -1,5 +1,33 @@
 {
   "_id": "page.your-relationship-to-the-respondent",
   "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.your-relationship-to-the-respondent--radios.auto_name__29",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.your-relationship-to-the-respondent--radios.auto_name__29--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Married",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.your-relationship-to-the-respondent--radios.auto_name__29--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Civil partners",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.your-relationship-to-the-respondent--radios.auto_name__29--radio.auto_value__11",
+          "_type": "radio",
+          "label": "Living together",
+          "value": "auto_value__11"
+        }
+      ],
+      "name": "auto_name__29"
+    }
+  ],
+  "heading": "What is your relationship to the respondent?",
   "url": "your-relationship-to-the-respondent"
 }

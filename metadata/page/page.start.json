@@ -1,13 +1,23 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "You can use this service to ask the court to order a person not to do one or both of the following things:\r\n\r\n* abuse or threaten you or your child (non-molestation order)\r\n* enter or come near the property you both live in (occupation order)",
+  "body": "You can use this service to ask the court to order a person (the respondent) not to do one or both of the following things:\r\n\r\n* abuse or threaten you or your child (non-molestation order)\r\n* enter or come near the property you both live in (occupation order)",
+  "components": [
+    {
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "If you're under 16 you'll need permission to apply from the [High Court](https://courttribunalfinder.service.gov.uk/search/postcode?aol=High+court)."
+    }
+  ],
   "heading": "Apply for a non-molestation order or an occupation order",
   "steps": [
-    "page.about-you",
-    "page.keeping-your-contact-details-private",
     "page.your-application",
     "page.do-you-need-an-urgent-order",
+    "page.about-you",
+    "page.keeping-your-contact-details-private",
+    "page.about-the-respondent",
+    "page.are-you-using-a-solicitor",
+    "page.your-solicitor-details",
     "page.your-relationship-to-the-respondent"
   ],
   "url": "/"
