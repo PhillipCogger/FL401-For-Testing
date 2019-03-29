@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "You can use this service to ask the court to order a person (the respondent) not to do one or both of the following things:\r\n\r\n* abuse or threaten you or your child (non-molestation order)\r\n* enter or come near the property you both live in (occupation order)",
+  "body": "Ask the court to order a person not to:\r\n\r\n* abuse or threaten you or your child (non-molestation order)\r\n* enter or come near the property you both live in (occupation order)",
   "components": [
     {
       "_id": "page.start--inset",

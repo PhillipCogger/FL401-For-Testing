@@ -1,7 +1,7 @@
 {
   "_id": "page.do-you-need-an-urgent-order",
   "_type": "page.form",
-  "body": "You can ask the court to look at your application immediately if:\r\n\r\n* there's any risk of the respondent harming you or your child\r\n* you might be stopped from applying\r\n* the respondent is deliberately trying to avoid accepting an order\r\n\r\n**Do you want the court to look at your application immediately?**",
+  "body": "You can ask the court to look at your application immediately if:\r\n\r\n* there's any risk of the respondent harming you or your child\r\n* you might be stopped from applying\r\n* the respondent knows you're applying for an order and is deliberately trying to avoid receiving it\r\n\r\n**Do you want the court to look at your application immediately?**",
   "components": [
     {
       "_id": "page.do-you-need-an-urgent-order--radios.auto_name__5",
@@ -10,6 +10,12 @@
         {
           "_id": "page.do-you-need-an-urgent-order--radios.auto_name__5--radio.auto_value__5",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.do-you-need-an-urgent-order--radios.auto_name__5--radio.auto_value__5--textarea.auto_name__30",
+            "_type": "textarea",
+            "hint": "Explain briefly why you need an immediate order",
+            "name": "auto_name__30"
+          },
           "label": "Yes",
           "value": "auto_value__5"
         },
@@ -23,6 +29,6 @@
       "name": "auto_name__5"
     }
   ],
-  "heading": "Do you need an urgent order?",
+  "heading": "Do you need an immediate order?",
   "url": "do-you-need-an-urgent-order"
 }
